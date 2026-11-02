@@ -1,0 +1,142 @@
+
+.add-product-container {
+  background: #f8fafc;
+  min-height: 100vh;
+  padding: 35px 8%;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.form-wrapper {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-heading h1 {
+  color: #0f172a;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.form-heading p {
+  color: #64748b;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  color: #334155;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+  font-size: 15px;
+  font-family: inherit;
+  background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.upload-box {
+  min-height: 190px;
+  border: 2px dashed #93c5fd;
+  border-radius: 10px;
+  background: #eff6ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #2563eb;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.upload-box span {
+  font-size: 14px;
+}
+
+.upload-box small {
+  color: #64748b;
+}
+
+.image-preview {
+  width: 100%;
+  height: 190px;
+  object-fit: contain;
+}
+
+.submit-product-btn {
+  width: 100%;
+  padding: 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-product-btn:hover {
+  background: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+  .add-product-container {
+    padding: 25px 5%;
+  }
+
+  .form-wrapper {
+    padding: 22px;
+  }
+
+  .form-heading h1 {
+    font-size: 25px;
+  }
+}
+
